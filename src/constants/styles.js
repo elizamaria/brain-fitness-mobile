@@ -1,10 +1,10 @@
 
 export const fontWeight = {
-  light: "300",
-  regular: "400",
-  normal: "500",
-  bold: "700",
-  extrabold: "900"
+  light: '300',
+  regular: '400',
+  normal: '500',
+  bold: '700',
+  extrabold: '900',
 };
 
 export const spacing = {
@@ -12,7 +12,7 @@ export const spacing = {
   normal: 15,
   big: 20,
   huge: 40,
-  xHuge: 60
+  xHuge: 60,
 };
 
 export const iconSize = {
@@ -20,7 +20,7 @@ export const iconSize = {
   normal: 25,
   big: 30,
   large: 40,
-  xlarge: 50
+  xlarge: 50,
 };
 
 export const fontSize = {
@@ -30,15 +30,15 @@ export const fontSize = {
   medium: 16,
   large: 24,
   xlarge: 32,
-  xxlarge: 46
+  xxlarge: 46,
 };
 
 export const colors = {
-  white: "#fff",
-  black: "#000",
-  green: "#42B28A",
-  purple: "#5E69BC",
-  red: "#FF0000",
-  blue: "#3A89C2",
-  darkGrey: "#232840",
+  white: '#fff',
+  black: '#000',
+  green: '#42B28A',
+  purple: '#5E69BC',
+  red: '#FF0000',
+  blue: '#3A89C2',
+  darkGrey: '#232840',
 };
