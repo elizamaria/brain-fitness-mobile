@@ -1,6 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
 import { createAppContainer, createSwitchNavigator } from 'react-navigation';
+import SplashScreen from 'react-native-splash-screen';
 import { ROUTES } from './routes';
 import { Home } from '../modules/Home';
 import { Login } from '../modules/Login';
@@ -15,6 +16,7 @@ class Switch extends React.PureComponent {
     // is auth or not logic here
     // hide splashscreen here
     this.props.navigation.navigate(ROUTES.LOGIN_ROUTE);
+    SplashScreen.hide();
   }
 
   render() {
