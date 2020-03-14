@@ -1,0 +1,12 @@
+{
+  "common": {
+    "ok": "OK!",
+    "cancel": "Cancel",
+    "back": "Back"
+  },
+  "errors": {
+  },
+  "login": {
+    "text": "Bun venit pe pagina de login"
+  }
+}
